@@ -1,24 +1,13 @@
 pluginManagement {
     repositories {
-        maven {
-            name 'Fabric'
-            url 'https://maven.fabricmc.net/'
-        }
-        maven {
-            name 'Forge'
-            url 'https://maven.minecraftforge.net/'
-        }
-        maven {
-            name 'Architectury'
-            url 'https://maven.architectury.dev/'
-        }
         gradlePluginPortal()
+        maven {
+            name = 'MinecraftForge'
+            url = 'https://maven.minecraftforge.net/'
+        }
     }
 }
 
-rootProject.name = 'rayon'
-
-include 'common', 'fabric'
-if (forge_enabled.toBoolean()) {
-    include 'forge'
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.7.0'
 }

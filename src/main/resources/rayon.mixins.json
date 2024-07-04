@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "dev.lazurite.rayon.impl.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "rayon.refmap.json",
+	"mixins": [
+		"client.ClientPacketListenerMixin",
+		"client.EntityRenderDispatcherMixin",
+		"client.KeyboardMixin",
+		"client.LevelRendererMixin",
+		"client.ClientLevelMixin"
+	],
+	"client": [
+		"common.entity.EntityMixin",
+		"common.entity.ServerEntityMixin",
+		"common.entity.ExplosionMixin",
+		"common.entity.TrackedEntityMixin",
+		"common.BlockStateBaseMixin",
+		"common.LevelMixin",
+		"common.ChunkMapMixin"
+	],
+	"minVersion": "0.8"
+}

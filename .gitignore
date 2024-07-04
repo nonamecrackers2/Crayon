@@ -1,33 +1,25 @@
-# gradle
-
-.DS_Store
-.gradle/
-build/
-out/
-classes/
-
 # eclipse
-
+bin
 *.launch
-
-# idea
-
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# vscode
-
-.settings/
-.vscode/
-bin/
+.settings
+.metadata
 .classpath
 .project
 
-# fabric
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
 
-run/
-logs/
+# gradle
+build
+.gradle
 
-.architectury-transformer/
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
