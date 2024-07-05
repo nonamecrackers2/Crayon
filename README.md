@@ -27,13 +27,4 @@ dependencies {
 }
 ```
 
-Define ``crackerslib_version``, ``crayon_version``, and ``libbulletjme_version`` in your ``gradle.properties`` folder with the following:
-
-## For the latest 1.19.4
-```gradle.properties
-crayon_version = 1.19.4-0.0
-crackerslib_version = 1.19.4-0.4-pre2
-libbulletjme_version = 17.4.0
-```
-
-For a list of versions, visit our [maven](https://lazurite.dev/maven/releases/dev/lazurite/rayon-fabric).
+Define ``crackerslib_version``, ``crayon_version``, and ``libbulletjme_version`` in your ``gradle.properties`` file. **Please refer to [this page](https://github.com/nonamecrackers2/Crayon/wiki/Versions) on what versions to use for each dependency.**
